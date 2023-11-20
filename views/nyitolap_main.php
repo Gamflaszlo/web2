@@ -1,14 +1,15 @@
 <section class = "felso"  >
+    <div class=nyit2>
+        <img src="images/about.jpg" height="250px" >
+        <div class=nyit>
 
-<br>asfdsaf<br>
-erere
-error_clear_laster
-exif_read_datar
-eachre
-<table>eachtgef
+                               <br>Rólunk!<br>
 
-tfe
-</table>
+           Amióta megismertük Itáliát nincs élet nélküle. A nyár csak az olasz tenger, a pizza csak nápolyi, a tészta aldente. Legyen olaszosan könnyű az élet. Jót enni, inni, veletek, mi csak ezt kívánjuk. 
+</div>
+    </div>
+
+
 </section>
 
 <section class= " felso2"> 

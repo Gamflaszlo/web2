@@ -42,6 +42,7 @@ li { display:inline } /* Ez a sor oldja meg, hogy a menüpontok egymás mellé k
 .felso {
     background-color: blueviolet;
     height: 300px;
+    padding: 10px;
 }
 .felso2 {
     background-color: azure;
@@ -50,4 +51,18 @@ li { display:inline } /* Ez a sor oldja meg, hogy a menüpontok egymás mellé k
 .also {
     background-color: blueviolet;
     height: 300px;
+}
+.nyit {
+    flex-wrap: wrap;
+    width: 30%;
+    height: 50px;
+    font-size: 1.5em;
+    padding: 40px;
+    float: right;
+}
+.nyit2 {
+    padding: 20px;
+    
+    
+    clear: both;
 }
