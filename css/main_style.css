@@ -44,3 +44,7 @@ li { display:inline } /* Ez a sor oldja meg, hogy a menüpontok egymás mellé k
     background-color: azure;
     height: 300px;
 }
+.also {
+    background-color: blueviolet;
+    height: 300px;
+}
