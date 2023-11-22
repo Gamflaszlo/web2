@@ -1,22 +1,31 @@
-<section class = "felso"  >
-    <div class=nyit2>
-        <img src="images/about.jpg" height="250px" >
-        <div class=nyit>
 
-                               <br>Rólunk!<br>
-
-           Amióta megismertük Itáliát nincs élet nélküle. A nyár csak az olasz tenger, a pizza csak nápolyi, a tészta aldente. Legyen olaszosan könnyű az élet. Jót enni, inni, veletek, mi csak ezt kívánjuk. 
+<section class = "seckinalat1"  >
+    <div class= flexfo>
+<div class= piz1> 
+<img src="images/pizza-5.jpg" height=300px; width=300px;> sfsdfddfdsf
 </div>
-    </div>
-
-
+<div class= piz1><img src="images/pizza-8.jpg" height=300px; width=300px;> sfsdfddfdsf</div>
+</section>
+<section class = "seckinalat2"  >
+<div class=flexfo>
+<div class= piz1><img src="images/pizza-7.jpg" height=300px; width=300px;> sfsdfddfdsf</div>
+<div class= piz1><img src="images/pizza-6.jpg" height=300px; width=300px;> sfsdfddfdsf</div>
+</div>
+</section>
+<section class = "seckinalat3"  >
+<div class= flexfo>
+<div class= piz1><img src="images/pizza-4.jpg" height=300px; width=300px;> sfsdfddfdsf</div>
+<div class= piz1><img src="images/pizza-3.jpg" height=300px; width=300px;> sfsdfddfdsf</div>
+</div>
 </section>
 
-<section class= " felso2"> 
 
-ccdcfsdfdsf
-</section>
 
-<section class= "also">
-    dsdsd
-</section> 
+
+
+
+    
+
+
+
+
