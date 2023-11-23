@@ -25,8 +25,13 @@
 </section>
 <section class = "seckinalat3"  >
 <div class= flexfo>
-<div class= piz1><img src="images/pizza-4.jpg" height=300px; width=300px;> sfsdfddfdsf</div>
-<div class= piz1><img src="images/pizza-3.jpg" height=300px; width=300px;> sfsdfddfdsf</div>
+<div class= piz2><img src="images/futar.jpg" height=30%; width=30%;></div>
+<div class= pizp><pre> Házhozszállítás
+  Add le a rendelésed a 00000000 számon és
+  vidd haza a kedvenc fogásodat.
+  vagy 
+  hászhozszállításérthívd a futárt. </pre>
+</div>
 </div>
 </section>
 
