@@ -1,8 +1,8 @@
 <?php
 
-class Alapinfok_Controller
+class Rendelések_Controller
 {
-	public $baseName = 'alapinfok';  //meghat�rozni, hogy melyik oldalon vagyunk
+	public $baseName = 'rendelések';  //meghat�rozni, hogy melyik oldalon vagyunk
 	public function main(array $vars) // a router �ltal tov�bb�tott param�tereket kapja
 	{
 		//bet�ltj�k a n�zetet
