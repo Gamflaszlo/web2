@@ -122,7 +122,12 @@ li { display:inline } /* Ez a sor oldja meg, hogy a menüpontok egymás mellé k
     max-height: 100%;
 }
 .flexfo{
+<<<<<<< HEAD
     
+=======
+    height: 100%;
+    width: 100%;
+>>>>>>> 108ec1c4a92e6b4d23fde5c7378c7a78c061fb76
     
     align-items: center;
     text-align: center;
@@ -154,10 +159,18 @@ li { display:inline } /* Ez a sor oldja meg, hogy a menüpontok egymás mellé k
     
     
     
+    
+    
 }
 .seckinalat2 {
+<<<<<<< HEAD
     
     justify-content: space-around;
+=======
+    width: 100%;
+    justify-content: space-around;
+    height: 100%;
+>>>>>>> 108ec1c4a92e6b4d23fde5c7378c7a78c061fb76
     
     display: flexbox;
     
