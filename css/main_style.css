@@ -43,169 +43,66 @@ li { display:inline } /* Ez a sor oldja meg, hogy a menüpontok egymás mellé k
 
 
 
-.felso {
-    background-color: #343a40;
-    height: 300px;
-    width: 100%;
-    display: flexbox;
-    
-    
-    
-    
-    
-    
-}
-.felso2 {
-    background-color: #343a40;
-    
-    max-height: 300px;
-    max-width: auto;
-    
-    width: auto;
-    display: flexbox;
-    
-} 
-.also {
-    background-color: #343a40;
-    max-height: 350px;
-    
-    width: 100%;
-    display: flexbox;
-    
-}
-.flex-container {
-    background-color: #343a40;
-    justify-content: space-between;
-    align-items: stretch;
-    text-align: center;
-    
-    
-    display: flex;
-    flex-wrap: wrap;
-    
-    max-width: 100%;
-    
-    
-    
-    
-    
-    
-}
-.divimg1{
-    
-    height: 350px;
-    width: 350px;
-    max-width: 100%;
-    background-color:#343a40;
-    margin: 20px;
-}
-.img1 {
-   max-height: 250px;
-   
-} 
-    
 
-.divp1 {
-    
-    font-style: italic;
-    max-height: 300px;
-    max-width: 400px;
-    
-    font-family:  Gothic;
-    margin: auto;
-    margin-right: 1%;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5em;
-    color: white;
-    padding-left: 10px;
-    overflow:auto;
 
-    
-}
-.divp2 {
-    
-    font-style: italic;
-    max-height: 300px;
-    max-width: 500px;
-    margin: auto;
-    margin-right: 25%;
 
-    font-family:  Gothic;
-    margin: auto;
-    
-    
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5em;
-    color:white;
-    margin-left: 10%;
-    overflow: auto;
-    
-    
-    
-}
-.divny2 {
-    height: 350px;
-    width: 350px;
-    max-width: 100%;
-    background-color:#343a40;
-    margin: 20px;
-    
-}
-.img2{
-    width: auto; height: 600px;
 
-}
-.img2{
-    height: 300px ;
-    width: 500px;
-}
-.divimg3 {
-    height: 350px;
-    width: 350px;
-    max-width: 100%;
-    background-color:#343a40;
-    margin: 20px;
-    
-}
-.img3 {
-    height: auto; width: 250px;
-    max-width: 250px;
 
-}
-.divp3 {
-    
-    font-style: italic;
-    max-height: 300px;
-    max-width: 500px;
-   
-    
 
-    font-family:  Gothic;
-    margin: auto;
-    
-    
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5em;
-    color:white;
-    margin-left: 10%;
+
+
+
    
 
-}
+
 .piz1{
     height: 350px;
     width: 350px;
     max-width: 100%;
     background-color:#343a40;
-    margin: 20px;
+    margin: 30px;
+}
+.piz2 {
+    
+    width: 50%;
+    height:100%;
+    
+    margin-top: 20px;
+    background-color:#343a40;
+    
+}
+.pizp {
+    max-width: 30%;
+    font-size: 1cqmax;
+    
+    
+    color: white;
+    float: right;
+}
+.pizp2 {
+    
+    max-width: 30%;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    
+    font-size: 1cqmax;
+    
+    margin: 2px;
+    color: white;
+    
+
+}
+.piz3 {
+   
+    width: 50%;
+    height:100%;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    
+
 }
 .flex {
     background-color: #343a40;
@@ -225,15 +122,30 @@ li { display:inline } /* Ez a sor oldja meg, hogy a menüpontok egymás mellé k
     max-height: 100%;
 }
 .flexfo{
-    background-color: #343a40;
-    justify-content:space-around;
+    height: 100%;
+    width: 100%;
+    
     align-items: center;
     text-align: center;
-    padding-left:2% ;
+    display: flexbox;
     padding-right: 2%;
     display: flex;
     max-width: 100%;
     flex-wrap: wrap;
+    background-color: #343a40;
+    
+
+}
+.flexfo2 {
+    align-items: center;
+    text-align: center;
+    padding-left:5% ;
+    display: flexbox;
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    background-color: #343a40;
+    
 
 }
 .seckinalat1 {
@@ -241,10 +153,18 @@ li { display:inline } /* Ez a sor oldja meg, hogy a menüpontok egymás mellé k
     max-height: 100%;
     
     
+    
+    
 }
 .seckinalat2 {
+    width: 100%;
+    justify-content: space-around;
+    height: 100%;
+    
     display: flexbox;
-    max-height: 100%;
+    
+    
+    
 }
 
 .seckinalat3 {
