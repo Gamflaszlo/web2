@@ -10,11 +10,11 @@
 $connection = Database::getConnection();
 $sql = 'select nev from pizza';
 $result = $connection->query($sql);
-$var_name = $result->fetchAll(PDO::FETCH_ASSOC);
-$v = var_export($var_name, true);
+$nevek = $result->fetchAll(PDO::FETCH_ASSOC);
+$v = var_export($nevek, true);
 
 
-echo "<tr><td>$v</td></tr>";
+echo "<tr><td>$v </td></tr>";
 
 
 
