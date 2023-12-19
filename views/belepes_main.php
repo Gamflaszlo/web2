@@ -12,7 +12,7 @@
 
 
     <h3>Regisztrálja magát, ha még nem felhasználó!</h2>
-    <form action = "regisztracio.php" method = "post">
+    <form action = "<?= SITE_ROOT ?>beleptet" method = "post">
       <fieldset>
         <legend>Regisztráció</legend>
         <br>

@@ -1,14 +1,18 @@
 <section class = "felso"  >
+<p> Írd ide a kommentet</p><br/>
+<form method="post" action="komment.php">
 
-<br>asfdsaf<br>
-erere
-error_clear_laster
-exif_read_datar
-eachre
-<table>eachtgef
+</br>
+<textarea rows="10" cols="80" name="comment">
 
-tfe
-</table>
+</textarea><br/>
+
+
+</form><br/>
+
+
+
+
 </section>
 
 <section class= " felso2"> 
