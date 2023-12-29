@@ -1,19 +1,33 @@
 <section class = "felso"  >
+<p> Írd ide a kommentet</p><br/>
 
-<br>asfdsaf<br>
-erere
-error_clear_laster
-exif_read_datar
-eachre
-<table>eachtgef
+<form method="POST">
 
-tfe
-</table>
+</br>
+<textarea rows="10" cols="80" name="comit">
+
+</textarea><br/>
+<input type="submit" name="kuld" 
+                 values="Kuld"/>
+
+</form><br/>
+<?php
+
+ 
+ 
+ $connection = Database::getConnection();
+ $sqlInsert = "INSERT INTO hozzaszolas(id,hozzasz) Values (0,:hozzasz)";
+ 
+                $stmt = $connection->prepare($sqlInsert); 
+                $stmt->execute(array(':hozzasz' => $_POST['Kuld'])); 
+                
+?>
+
+
 </section>
 
 <section class= " felso2"> 
 
-ccdcfsdfdsf
 </section>
 
 <section class= "also">
