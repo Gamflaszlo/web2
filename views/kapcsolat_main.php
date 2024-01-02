@@ -2,21 +2,19 @@
 
 <section class = "felso"  >
 
-<br>asfdsaf<br>
-erere
-error_clear_laster
-exif_read_datar
-eachre
-<table>eachtgef
+<br>Lázi AND Kliman Pizzeria<br>
+Cím:
+Kecskemét Izsáki ut 2
+<table>
 
-tfe
+
 </table>
 </section>
 
 <section class= " felso2"> 
     <label>
 <Form method="POST">
-<select name="valu" >
+<select name="valu">
                 
                 <option value="USD">USD</option>
                 <option value="EUR">EUR</option>
@@ -24,13 +22,13 @@ tfe
                 
             </select>
             <input type="submit" name="szamol" 
-                 values="valu"/>
+                 values='valu'/>
             
         
 
          </Form>
         <?php
-        
+    
 class Arfolyam {
     
 function lekerdezes($currency = '') {
@@ -52,11 +50,21 @@ function lekerdezes($currency = '') {
         return "Nem tölthető be az árfolyam.";  
     }
 }
-
 }
-$valut = $_POST["valu"];
+
+
+if($_POST['valu'] == 0) {
+echo "Kérem válasszon devizanemet";
+} else {
+
+
+
+$valut = $_POST['valu'];
+
+
 $arfolyam = new Arfolyam;
 echo $arfolyam->lekerdezes($valut);
+}
 ?>
             
 </section>
